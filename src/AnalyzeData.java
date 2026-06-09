@@ -80,7 +80,7 @@ public class AnalyzeData {
         return String.join(System.lineSeparator(),
                 "研究データの分析結果",
                 "",
-                "件数: " + values.size(),
+                "件数: " + values.size() + " 件",
                 String.format("平均値: %.2f", average),
                 String.format("最小値: %.2f", min),
                 String.format("最大値: %.2f", max),
